@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'Summer';
+  src: url('./fonts/Summer.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apple';
+  src: url('./fonts/AppleGaramond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleB';
+  src: url('./fonts/AppleGaramond-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ header{
+      font-family: 'Apple', sans-serif;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size: 25px;
+      background-color: #2A2727;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .logo img{
+    width: 150px;
+    height: auto;
+  }
+
+  ul{
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+      flex-wrap: wrap;
+  }
+
+  .navbar a{
+      color: #f5f5f5;
+      text-decoration: none;
+      border: none;
+      transition: 0.2s;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+  .navbar a:hover{
+    padding: 10px 20px;
+    background-color: #FFFFCA;
+    border-radius: 20px;
+    color:#2A2727;
+  }
+
+  .booking{
+    font-family: 'Apple';
+      background-color: #FFFFCA;
+      margin-left: auto;
+      margin-right: 10px;
+      font-size: 25px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.2s ease;
+      color: #2A2727;
+      border: 2px solid #FFFFCA;
+      white-space: nowrap;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .booking:hover{
+    background-color: #2A2727;
+    border: 2px solid #FFFFCA;
+    color: #FFFFCA;
+
+  }
+
+  .booking a{
+      color: #2A2727;
+      text-decoration: none;
+      transition: 0.2s ease;
+  }
+
+  .booking:hover a{
+    color: #FFFFCA;
+  }
+
+.booking:hover a{
+  color: #FFFFCA;
+}
+
+.booknow{
+    background-color: #e0e0e0;
+    padding: 50px;
+}
+
+.text{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.text h1{
+  font-family: 'Summer';
+  color: #2A2727;
+    margin-top: 30px;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.form{
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.form img{
+  margin-left: -150px;
+  width: 950px;
+  height: auto;
+}
+
+.texts{
+    justify-content: right;
+    margin-bottom: 30px;
+}
+
+.form_container{
+    color:#f5f5f5;
+    background-color: #2A2727;
+    padding: 95px;
+}
+
+.form_container h1{
+  color: #FFFFCA;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form_container p{
+    text-align: center;
+    font-size: 20px;
+    max-width: 500px;
+    
+}
+
+
+input{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#datetime{
+    width: auto;
+
+}
+
+
+select{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+
+.form_container .formbook{
+  font-family: 'Apple';
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #FFFFCA;
+    color: #2A2727;
+    border-radius: 30px;
+    cursor: pointer;
+    border:none;
+    transition: 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.formbook:hover{
+  font-size: 20px;
+  padding: 15px 20px;
+  background-color: #2A2727;
+  color: #FFFFCA;
+  border: 2px solid #FFFFCA;
+}
+
+
+
+.footer {
+  font-family: 'Apple';
+    background-color: #2A2727;
+    color: #FFFFCA;
+    padding: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+.logo-placeholder img{
+    width: 170px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: -25px;
+  }
+  
+  .footer-section h4 {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+    text-align: right;
+    
+  }
+
+  .footer-section a:hover{
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  a{
+    color: #FFFFCA;
+  }
+  
+  .footer-bottom p {
+    font-size: 13px;
+    font-style: italic;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 40px;
+  }
+
+  .icon{
+    font-size: 20px;
+  }
+  
+  .icon a{
+    color: #FFFFCA;
+    transition: 0.2s ease;
+  }
+
+  .icon a:hover{
+    font-size: 30px;
+  }
+
+  .message{
+    display: none;
+    margin-top: 20px;
+    font-family: 'Apple';
+    font-size: 20px;
+    color: #FFFFCA;
+  }
+
+  .message.show{
+    display: block;
+  }
+
+@media screen and (max-width: 1039px){
+     header{
+      padding: 20px;
+      font-size: 20px;
+      gap: 15px;
+    }
+
+    .booking{
+      font-size: 20px;
+    }
+   }

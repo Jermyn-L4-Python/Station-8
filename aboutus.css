@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'Summer';
+  src: url('./fonts/Summer.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apple';
+  src: url('./fonts/AppleGaramond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleB';
+  src: url('./fonts/AppleGaramond-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ header{
+      font-family: 'Apple', sans-serif;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size: 25px;
+      background-color: #2A2727;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .logo img{
+    width: 150px;
+    height: auto;
+  }
+
+  ul{
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+      flex-wrap: wrap;
+  }
+
+  .navbar a{
+      color: #f5f5f5;
+      text-decoration: none;
+      border: none;
+      transition: 0.2s;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+  .navbar a:hover{
+    padding: 10px 20px;
+    background-color: #FFFFCA;
+    border-radius: 20px;
+    color:#2A2727;
+  }
+
+  .booking{
+    font-family: 'Apple';
+      background-color: #FFFFCA;
+      margin-left: auto;
+      margin-right: 10px;
+      font-size: 25px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.2s ease;
+      color: #2A2727;
+      border: 2px solid #FFFFCA;
+      white-space: nowrap;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .booking:hover{
+    background-color: #2A2727;
+    border: 2px solid #FFFFCA;
+    color: #FFFFCA;
+
+  }
+
+  .booking a{
+      color: #2A2727;
+      text-decoration: none;
+      transition: 0.2s ease;
+  }
+
+  .booking:hover a{
+    color: #FFFFCA;
+  }
+.aboutus{
+    padding: 150px 100px 100px 100px;
+    background-color: #e0e0e0;
+}
+
+.aboutus h1{
+  font-family: 'Summer';
+  color: #2A2727;
+  margin-top: -100px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.about_content {
+  display: flex;
+  align-items: center;  
+  justify-content: center;                
+  
+}
+
+.about_content img {
+  justify-content: center;
+  align-items: center;
+  margin-left: -200px;
+  width: 900px;
+  height: auto;          
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;                 
+}
+
+
+  .texts h1{
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .texts h2{
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .texts p{
+    max-width: 500px;
+    font-family: "Apple";
+    font-size: 30px;
+  }
+
+
+
+  .About {
+    background-color: #2A2727;
+    padding: 150px 100px 150px 100px;
+  }
+  
+  .AboutContainer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
+  
+  .AboutImages {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ImageBox {
+    padding: 0;
+    display: flex;
+    border: 2px solid #FFFFCA;
+  }
+
+  .ImageBox img{
+    width: 300px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.2s ease;
+  }
+
+  .ImageBox img:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .AboutText {
+    color: #e0e0e0;
+  }
+  
+  .AboutText h2 {
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .AboutText h1 {
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .AboutText p {
+    font-family: 'Apple';
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+
+  .misandvis{
+    background-color: #e0e0e0;
+    justify-content: center;
+    padding: 150px;
+    display: flex;
+    gap: 150px;
+  }
+
+  .mission{
+    color: #2A2727;
+    text-align: center;
+  }
+
+  .mission h1{
+       font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #2c3e1f;
+  }
+
+  .mission h2{
+       font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+   .mission p{
+    font-family: 'Apple';
+    font-size: 20px;
+    margin-top: 60px;
+  }
+
+  .vision{
+    color: #2A2727;
+    text-align: center;
+  }
+
+  .vision h1{
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #2c3e1f;
+    margin-bottom: 30px;
+  }
+
+  .vision h2{
+       font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .vision p{
+    font-family: 'Apple';
+    font-size: 20px;
+  }
+
+
+
+.footer {
+  font-family: 'Apple';
+    background-color: #2A2727;
+    color: #FFFFCA;
+    padding: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+.logo-placeholder img{
+    width: 170px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: -25px;
+  }
+  
+  .footer-section h4 {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+    text-align: right;
+    
+  }
+
+  .footer-section a:hover{
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  a{
+    color: #FFFFCA;
+  }
+  
+  .footer-bottom p {
+    font-size: 13px;
+    font-style: italic;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 40px;
+  }
+
+  .icon{
+    font-size: 20px;
+  }
+  
+  .icon a{
+    color: #FFFFCA;
+    transition: 0.2s ease;
+  }
+
+  .icon a:hover{
+    font-size: 30px;
+  }
+
+
+
+  @media screen and (max-width: 1039px) {
+    header{
+      padding: 20px;
+      font-size: 20px;
+      gap: 15px;
+    }
+
+    .booking{
+      font-size: 20px;
+    }
+
+    .aboutus h1{
+      font-size: 60px;
+    }
+
+    .texts h1{
+      font-size: 40px;
+    }
+
+    .about_content{
+      margin-top: 150px;
+      padding: 10px;
+      gap: 400px;
+    }
+
+    .AboutContainer{
+      gap: 100px;
+    }
+
+    .AboutImages{
+      flex-direction: column;
+    }
+
+    .mission h1{
+      font-size: 40px;
+    }
+
+    .vision h1{
+      font-size: 40px;
+    }
+
+}

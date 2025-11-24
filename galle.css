@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Summer';
+  src: url('./fonts/Summer.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apple';
+  src: url('./fonts/AppleGaramond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleB';
+  src: url('./fonts/AppleGaramond-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ header{
+      font-family: 'Apple', sans-serif;
+      padding: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      font-size: 25px;
+      background-color: #2A2727;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .logo img{
+    width: 150px;
+    height: auto;
+  }
+
+  ul{
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+      flex-wrap: wrap;
+  }
+
+  .navbar a{
+      color: #f5f5f5;
+      text-decoration: none;
+      border: none;
+      transition: 0.2s;
+      padding: 10px 20px;
+      border-radius: 20px;
+    }
+
+  .navbar a:hover{
+    padding: 10px 20px;
+    background-color: #FFFFCA;
+    border-radius: 20px;
+    color:#2A2727;
+  }
+
+  .booking{
+    font-family: 'Apple';
+      background-color: #FFFFCA;
+      margin-left: auto;
+      margin-right: 10px;
+      font-size: 25px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      transition: 0.2s ease;
+      color: #2A2727;
+      border: 2px solid #FFFFCA;
+      white-space: nowrap;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+  .booking:hover{
+    background-color: #2A2727;
+    border: 2px solid #FFFFCA;
+    color: #FFFFCA;
+
+  }
+
+  .booking a{
+      color: #2A2727;
+      text-decoration: none;
+      transition: 0.2s ease;
+  }
+
+  .booking:hover a{
+    color: #FFFFCA;
+  }
+
+.booking:hover a{
+  color: #FFFFCA;
+}
+
+.galleries{
+    padding: 60px;
+    background-color: #2A2727;
+    color: #f5f5f5;
+}
+
+.galleries h1{
+  font-family: 'Summer';
+    color: #FFFFCA;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.text{
+  justify-content: center;
+  margin:auto;
+  width: 100%;
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+.text h1{
+
+  font-family: "Noto Serif Dives Akuru", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFCA;
+  text-align: left;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.text h2{
+    font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+
+.text p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      padding: 10px;
+    }
+
+.gallery img {
+      border: 2px solid #FFFFCA;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: 0.2s ease;
+    }
+
+  .gallery img:hover{
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+      transition: box-shadow 0.3s ease;
+    }
+
+  .lightbox {
+      display: none;
+      position: fixed;
+      top: 0; 
+      left: 0;
+      width: 100vw; height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+  .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      box-shadow: 0 0 20px rgba(255,255,255,0.5);
+      border-radius: 10px;
+      cursor: zoom-out;
+    }
+
+
+  .footer {
+    font-family: 'Apple';
+    background-color: #e0e0e0;
+    padding: 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+
+  
+.logo-placeholder img{
+    width: 170px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: -25px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .footer_section .foot_text{
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+  }
+  
+  .footer-section p,
+  .footer-section a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+    text-align: right;
+  }
+
+  .footer-section a:hover{
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-bottom p {
+    font-size: 13px;
+    font-style: italic;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 40px;
+    color: #2A2727;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+
+  .icon a{
+    color: #2A2727;
+    transition: 0.2s ease;
+  }
+
+  .icon a:hover{
+    font-size: 30px;
+  }
+
+   @media screen and (max-width: 1039px){
+     header{
+      padding: 20px;
+      font-size: 20px;
+      gap: 15px;
+    }
+
+    .booking{
+      font-size: 20px;
+    }
+   }
+
+
+    
+   
